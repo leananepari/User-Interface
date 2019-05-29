@@ -64,3 +64,144 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* =============================
+  HEADER
+==============================*/
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+ text-align: center;
+}
+.navBar {
+  background-color: #e0ebf0;
+  height: 60px;
+  width: 80%;
+  position: fixed;
+  top: 0;
+}
+.navBar a{
+  text-decoration: none;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+  text-align: center;
+  color: grey;
+  display: inline-block;
+}
+.navBar a:hover {
+  color: #05549c;
+  text-shadow: 5px 5px 10px rgba(0,0,0,.4);
+}
+.navBar img {
+  height: 100%;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+h1 {
+  font-size: 60px;
+}
+.headerContent {
+  border-bottom: 1px solid black;
+  vertical-align: middle;
+  padding-top: 40px;
+}
+.title {
+  display: inline-block;
+  padding: 70px;
+  height: 100%;
+  vertical-align: middle;
+}
+.headerImage {
+  display: inline-block;
+  padding: 70px;
+  padding-right: 0px;
+  height: 100%;
+  vertical-align: middle;
+}
+button {
+  width: 120px;
+  border-radius: 0px;
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: white;
+}
+
+/* ============================
+  MAIN
+============================ */
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.firstRow {
+  padding-top: 20px;
+}
+.firstRow .itemOne{
+  display: inline-block;
+  width: 45%;
+  padding: 30px;
+  padding-left: 0px;
+  margin-right: 60px;
+  padding-right: 0px;
+}
+.firstRow .itemTwo {
+  display: inline-block;
+  width: 45%;
+  padding: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.secondRow img{
+  padding: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+.thirdRow {
+  padding-bottom: 20px;
+}
+.thirdRow .left {
+  display: inline-block;
+  padding: 30px;
+  padding-left: 0px;
+  margin-right: 50px;
+  width: 30%;
+}
+.thirdRow .middle {
+  display: inline-block;
+  padding: 30px;
+  padding-left: 0px;
+  margin-right: 50px;
+  width: 30%;
+}
+.thirdRow .right {
+  display: inline-block;
+  padding: 30px;
+  padding-left: 0px;
+  margin-right: 0px;
+  width: 30%;
+}
+
+/* ============================
+ FOOTER
+============================= */
+footer {
+  border-top: 1px solid black;
+}
+.contactInfo {
+  padding: 20px;
+  padding-left: 0px;
+}
+.address p{
+  line-height: 1.5;
+}
+.contactInfo p {
+  padding-top: 10px;
+  line-height: 1.5;
+}
+.copyright {
+  text-align: center;
+}
