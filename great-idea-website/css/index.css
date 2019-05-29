@@ -68,20 +68,31 @@ h1, h2, h3, h4, h5 {
   HEADER
 ==============================*/
 .container {
-  padding: 40px;
+  width: 80%;
+  margin: 0 auto;
 }
 header {
  text-align: center;
 }
+.navBar {
+  background-color: #e0ebf0;
+  height: 60px;
+  position: fixed;
+  top: 0;
+}
 .navBar a{
   text-decoration: none;
-  padding: 45px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
   text-align: center;
   color: grey;
+  display: inline-block;
 }
 .navBar img {
   height: 100%;
   vertical-align: middle;
+  padding-left: 10px;
 }
 h1 {
   font-size: 60px;
@@ -89,6 +100,7 @@ h1 {
 .headerContent {
   border-bottom: 1px solid black;
   vertical-align: middle;
+  padding-top: 40px;
 }
 .title {
   display: inline-block;
@@ -99,6 +111,7 @@ h1 {
 .headerImage {
   display: inline-block;
   padding: 70px;
+  padding-right: 0px;
   height: 100%;
   vertical-align: middle;
 }
@@ -117,6 +130,9 @@ button {
 p {
   font-size: 16px;
   line-height: 1.5;
+}
+.firstRow {
+  padding-top: 20px;
 }
 .firstRow .itemOne{
   display: inline-block;
@@ -137,6 +153,9 @@ p {
   padding-left: 0px;
   padding-right: 0px;
   width: 100%;
+}
+.thirdRow {
+  padding-bottom: 20px;
 }
 .thirdRow .left {
   display: inline-block;
@@ -164,12 +183,18 @@ p {
  FOOTER
 ============================= */
 footer {
-
   border-top: 1px solid black;
 }
 .contactInfo {
   padding: 20px;
   padding-left: 0px;
+}
+.address p{
+  line-height: 1.5;
+}
+.contactInfo p {
+  padding-top: 10px;
+  line-height: 1.5;
 }
 .copyright {
   text-align: center;
