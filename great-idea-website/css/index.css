@@ -137,14 +137,15 @@ p {
 }
 .firstRow .itemOne{
   display: inline-block;
-  width: 50%;
+  width: 45%;
   padding: 30px;
   padding-left: 0px;
+  margin-right: 60px;
   padding-right: 0px;
 }
 .firstRow .itemTwo {
   display: inline-block;
-  width: 50%;
+  width: 45%;
   padding: 30px;
   padding-left: 0px;
   padding-right: 0px;
@@ -162,22 +163,22 @@ p {
   display: inline-block;
   padding: 30px;
   padding-left: 0px;
-  padding-right: 0px;
-  width: 33%;
+  margin-right: 50px;
+  width: 30%;
 }
 .thirdRow .middle {
   display: inline-block;
   padding: 30px;
   padding-left: 0px;
-  padding-right: 0px;
-  width: 33%;
+  margin-right: 50px;
+  width: 30%;
 }
 .thirdRow .right {
   display: inline-block;
   padding: 30px;
   padding-left: 0px;
-  padding-right: 0px;
-  width: 33%;
+  margin-right: 0px;
+  width: 30%;
 }
 
 /* ============================
